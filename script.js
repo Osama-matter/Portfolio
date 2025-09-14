@@ -73,7 +73,7 @@
         function downloadCV() {
             // You can replace this with your actual CV file path
             const link = document.createElement('a');
-            link.href = '#'; // Replace with your CV file path
+            link.href = 'CV/Osama_Matter_CV.pdf'; // Replace with your CV file path
             link.download = 'Osama_Matter_CV.pdf';
             document.body.appendChild(link);
             link.click();
